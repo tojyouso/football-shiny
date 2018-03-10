@@ -55,7 +55,7 @@ ui <- fluidPage(
       
       p("This app is a visual representation of the projected total points to be achieved by each team in the top league of selected countries
         - represented by the red circles. It also shows the min, max and average points of teams that finished
-        in the same position from the 1995/1996 season to the 2016/2017 season"),
+        in the same position from the 1995/1996 season to the 2016/2017 season."),
       
       br(),
       
