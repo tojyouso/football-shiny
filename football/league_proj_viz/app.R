@@ -8,7 +8,9 @@
 #
 
 
-# add a gameweek slider but having troiuble when teams have played different amount of games
+
+# add home and away
+# add other leagues
 
 library(tidyverse)
 # library(stringr)
@@ -79,7 +81,7 @@ ui <- fluidPage(theme = shinytheme("cyborg"),
       
       a("Find me @tojyouso", href = "https://twitter.com/TojYouSo", target = "_blank"),
       br(),
-      a("Source: http://football-data.co.uk as at 2018-03-09", href = "http://www.football-data.co.uk", target = "_blank")
+      a("Source: http://football-data.co.uk as at 2018-03-11", href = "http://www.football-data.co.uk", target = "_blank")
       
       
       ),
