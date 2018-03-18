@@ -71,7 +71,7 @@ ui <- fluidPage(
       
       a("Find me @tojyouso", href = "https://twitter.com/TojYouSo", target = "_blank"),
       br(),
-      a("Source: http://football-data.co.uk as at 2018-03-11", href = "http://www.football-data.co.uk", target = "_blank")
+      a("Source: http://football-data.co.uk as at 2018-03-16", href = "http://www.football-data.co.uk", target = "_blank")
       
       
       ),

@@ -71,5 +71,6 @@ played_games <- df %>%
 write_csv(played_games,
           "/Users/mobolayo/Documents/R/shiny-server/football/league_viz/played_games.csv")
 
-write_csv(played_games,
+write_csv(played_games %>% 
+            filter(country == "England"),
           "/Users/mobolayo/Documents/R/shiny-server/football/league_proj_viz/played_games.csv")

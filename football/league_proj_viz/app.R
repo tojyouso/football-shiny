@@ -81,7 +81,7 @@ ui <- fluidPage(theme = shinytheme("cyborg"),
       
       a("Find me @tojyouso", href = "https://twitter.com/TojYouSo", target = "_blank"),
       br(),
-      a("Source: http://football-data.co.uk as at 2018-03-11", href = "http://www.football-data.co.uk", target = "_blank")
+      a("Source: http://football-data.co.uk as at 2018-03-16", href = "http://www.football-data.co.uk", target = "_blank")
       
       
       ),
@@ -179,6 +179,8 @@ server <- function(input, output) {
                   filter(gameweek == 38),
                 aes(x = gameweek, y = points, label = points), colour = "white",
                 nudge_x = 1, nudge_y = 0.9) 
+    
+    
     # +
       # labs(title = str_c("Projected league ", input$metric, "for ", input$team),
       #      subtitle = str_c("assuming current run rate\n", input$season, "/", input$seas + 1),
